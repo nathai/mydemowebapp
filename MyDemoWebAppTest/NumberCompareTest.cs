@@ -22,7 +22,7 @@ namespace MyTestAPpTest
             NumberCompare nc = new NumberCompare();
             bool fromCall;
             fromCall = nc.GreaterThanZero("-1");
-            Assert.IsFalse(fromCall);
+            Assert.IsTrue(fromCall);
         }
 
         [TestMethod]
